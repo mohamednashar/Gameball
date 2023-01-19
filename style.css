@@ -2,13 +2,13 @@
     padding: 0;
     margin: 0;
     font-family: Outfit, sans-serif;
-
 }
 
 body {
     font-size: 18px;
     line-height: 140%;
     font-weight: 300;
+    
 }
 
 a {
@@ -30,16 +30,17 @@ a {
 }
 
 #circle-right {
-
     position: absolute;
     left: auto;
-    top: auto;
-    right: -40%;
+    top: 100px;
+    right: 0%;
     bottom: -33%;
-    width: 1000px;
+    width: 500px;
     height: 920px;
-    border-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
     background-image: linear-gradient(180deg, #f1f3f6, rgba(241, 243, 246, 0.2));
+   
 }
 
 /****************************************************************************************/
@@ -916,3 +917,7 @@ input[type="email"] {
     cursor: pointer;
     top: -8px;
 }
+
+/****************************************************************************************/
+/*NOTE: I made this website one 1920x1080 screen resolution and it is not responsive*/
+/****************************************************************************************/
