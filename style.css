@@ -8,6 +8,7 @@ body {
     font-size: 18px;
     line-height: 140%;
     font-weight: 300;
+    overflow-x: hidden;
     
 }
 
@@ -33,12 +34,11 @@ a {
     position: absolute;
     left: auto;
     top: 100px;
-    right: 0%;
+    right: -40%;
     bottom: -33%;
-    width: 500px;
+    width: 1000px;
     height: 920px;
-    border-top-left-radius: 100%;
-    border-bottom-left-radius: 100%;
+    border-radius: 100%;
     background-image: linear-gradient(180deg, #f1f3f6, rgba(241, 243, 246, 0.2));
    
 }
